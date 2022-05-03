@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Login - MicrocosmosBG</title>
+
+		<link rel="stylesheet" href="../styles/reset.css">
+		<link rel="stylesheet" href="../styles/general-style.css">
+		<link rel="stylesheet" href="../styles/header-style.css">
+		<link rel="stylesheet" href="../styles/index-style.css">
+		<link rel="stylesheet" href="../styles/footer-style.css">
+        <script src="../scripts/main.js"></script>
+		<script src="../scripts/login.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="caixa">
+				<h1><img src="../media/logo 7.png"></h1>
+
+				<nav>
+					<ul>
+						<li><a href="../pages/home.html">Home</a></li>
+						<li><a href="../pages/cadastros.html">Cadastro</a></li>
+						<li><a href="../pages/contato.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<div class="caixa-login">
+                <h2>Login</h2>
+                <h3>Caso já tenha o cadastro Microcosmos</h3>
+                <form id="dados-entrada">
+                    <label for:email>Email da conta</label>
+                    <input class="input-padrao" type="email" name="email" id="email" placeholder="mail@dominio.com(.br)">
+                    <label for:senha>Senha</label>
+                    <input class="input-padrao" type="password" name="senha" id="senha" placeholder="*********">
+                    <input type="button" value="Entrar!" class="enviar" onclick="validation()"></button>
+                </form>
+                <h3>Dificuldades para entrar?</h3>
+                <button class="cadastrar">Cadastrar</button>
+                <button class="esqueci">Esqueci minha senha</button>
+			</div>
+			</div>
+            <div class="justificativa">
+                <h3>Por quê preciso de login?</h3>
+                <p>Logo você poderá compartilhar de centenas de jogos, seus componentes e opiniões! Diversos criadores dedicaram muito tempo para desenvolver estes modelos e jogos, portanto a identificação de cada usuário é uma medida importante para assegurar a melhor experiência dentro dessa plataforma</p>
+            </div>
+		</main>
+		<footer>
+			<img src="../media/logo 8.png">
+			<p class="copyright">&copy; Copyright MicrocosmosBG - 2022</p>
+		</footer>
+	</body>
+</html>

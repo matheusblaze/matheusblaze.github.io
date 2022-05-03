@@ -1,0 +1,15 @@
+footer {
+	text-align: center;
+	background: url("../media/padrão\ 1.png");
+	padding: 40px 0;
+}
+
+footer img {
+	width: 150px;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}

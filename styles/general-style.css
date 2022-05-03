@@ -1,0 +1,25 @@
+body {
+	background: url("../media/padrão\ 2.png");
+}
+
+main {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+main h2 {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+
+main h3 {
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+main p {
+	margin-top: 20px;
+}
